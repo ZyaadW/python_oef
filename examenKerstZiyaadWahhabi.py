@@ -24,7 +24,7 @@ def readSPI(channel):
     temperature = ((spanning - 0.5) * 100.0) # formule voor de temperatuur
     return(temperature) # geef de temp terug
 
-channel = 0 # variabele is gelijk aan nul
+channel = 1 # variabele is gelijk aan 1
 try: # probeer
     while True: # als waar 
         
